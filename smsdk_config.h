@@ -1,5 +1,3 @@
-
-
 #ifndef _INCLUDE_SOURCEMOD_EXTENSION_CONFIG_H_
 #define _INCLUDE_SOURCEMOD_EXTENSION_CONFIG_H_
 
@@ -10,8 +8,8 @@
 
 /* Basic information exposed publicly */
 #define SMEXT_CONF_NAME			"VoiceHook"
-#define SMEXT_CONF_DESCRIPTION		"Hook when player is speak. For L4D, L4D2 and CS:GO"
-#define SMEXT_CONF_VERSION		"1.0"
+#define SMEXT_CONF_DESCRIPTION		"Hook when player is speak."
+#define SMEXT_CONF_VERSION		"2.0"
 #define SMEXT_CONF_AUTHOR		"Accelerator"
 #define SMEXT_CONF_URL			"http://core-ss.org"
 #define SMEXT_CONF_LOGTAG		"VoiceHook"
@@ -34,9 +32,9 @@
 //#define SMEXT_ENABLE_HANDLESYS
 //#define SMEXT_ENABLE_PLAYERHELPERS
 //#define SMEXT_ENABLE_DBMANAGER
-#define SMEXT_ENABLE_GAMECONF
+//#define SMEXT_ENABLE_GAMECONF
 //#define SMEXT_ENABLE_MEMUTILS
-//#define SMEXT_ENABLE_GAMEHELPERS
+#define SMEXT_ENABLE_GAMEHELPERS
 //#define SMEXT_ENABLE_TIMERSYS
 //#define SMEXT_ENABLE_THREADER
 //#define SMEXT_ENABLE_LIBSYS
