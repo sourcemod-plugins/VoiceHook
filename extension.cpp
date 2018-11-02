@@ -18,6 +18,7 @@ void VoiceHook::ClientVoice( edict_t *pEntity )
 	if (pEntity)
 	{
 		int client = gamehelpers->IndexOfEdict(pEntity);
+		if (client)
 		{
 			g_OnClientSpeaking->PushCell(client);
 			g_OnClientSpeaking->Execute();
