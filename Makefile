@@ -1,7 +1,7 @@
 # Makefile
-HX_SOURCEMOD = ../sourcemod
-HX_SDK = ../hl2sdk
-HX_METAMOD = ../mmsource
+HX_SOURCEMOD = ../sourcemod-latest
+HX_SDK = ../hl2sdk-l4d2
+HX_METAMOD = ../mmsource-1.10.6
 #
 # voicehook.ext.so
 #
@@ -12,8 +12,10 @@ HX_INCLUDE = -I. \
 	-I$(HX_METAMOD)/core \
 	-I$(HX_METAMOD)/core/sourcehook \
 	-I$(HX_SOURCEMOD)/public \
-	-I$(HX_SOURCEMOD)/sourcepawn/include
-#
+	-I$(HX_SOURCEMOD)/sourcepawn/include \
+	-I../sourcepawn/include \
+	-I../amtl -I../amtl/amtl
+
 HX_QWERTY = -D_LINUX \
 	-Dstricmp=strcasecmp \
 	-D_stricmp=strcasecmp \
